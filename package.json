@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "pug": "^3.0.2",
+    "sass": "^1.75.0"
+  },
+  "name": "mobile-and-web-ui-kit",
+  "version": "1.0.0",
+  "description": "Mobile And Web Iu Kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pug": "pug -w ./ -o ./html -P",
+    "sass": "sass --watch ./scss/main.scss main.css"
+  },
+  "author": "Jasurbek",
+  "license": "ISC"
+}

@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 50px;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  justify-content: space-between;
+}
+.navbar .navbar__flex {
+  display: flex;
+}
+.navbar .navbar__flex .navbar__h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.navbar .navbar__flex .navbar__h1 .navbar-h1__FU {
+  font-weight: 300;
+}
+.navbar .navbar__flex .navbar__line {
+  width: 2px;
+  height: 30px;
+  background-color: #000000;
+  margin-top: 26px;
+  margin-left: 30px;
+}
+.navbar .navbar__flex .navbar__p {
+  width: 150px;
+  margin-left: 50px;
+  margin-top: 24px;
+}
+.navbar .navbar__row {
+  display: flex;
+  gap: 20px;
+}
+.navbar .navbar__row img {
+  width: 27px;
+  height: 27px;
+  margin-top: 10px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.hero .hero__title h1 {
+  font-weight: 100;
+  font-size: 100px;
+  letter-spacing: 10px;
+  color: rgba(0, 0, 0, 0.2);
+}
+.hero .hero__title .hero__img img {
+  filter: brightness(0.3);
+}/*# sourceMappingURL=main.css.map */
