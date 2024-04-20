@@ -28,7 +28,7 @@
         }
         .hero__img { 
             .hero-img__lemon{
-                filter: contrast(0.3);
+                filter:grayscale(1);
                 position: relative;
                 z-index: 2;
             }
@@ -36,7 +36,7 @@
                 position: absolute;
                 left: 630px;
                 top: 470px;
-                filter: contrast(0.3);
+                filter:grayscale(1);
             }
         }
     }

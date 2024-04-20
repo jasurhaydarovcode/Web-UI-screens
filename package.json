@@ -10,6 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "pug": "pug -w ./ -o ./html -P",
+    "pin": "pug -w ./ -o ./html -P",
     "sass": "sass --watch ./scss/main.scss main.css"
   },
   "author": "Jasurbek",
