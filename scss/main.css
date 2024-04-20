@@ -9,46 +9,45 @@ body {
 }
 
 .container {
-  width: 100%;
-  height: -moz-max-content;
-  height: max-content;
-  padding: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 80px;
 }
 
-.navbar {
+.container .navbar {
   display: flex;
   width: 100%;
   height: -moz-max-content;
   height: max-content;
   justify-content: space-between;
 }
-.navbar .navbar__flex {
+.container .navbar .navbar__flex {
   display: flex;
 }
-.navbar .navbar__flex .navbar__h1 {
+.container .navbar .navbar__flex .navbar__h1 {
   font-weight: bold;
   font-size: 30px;
 }
-.navbar .navbar__flex .navbar__h1 .navbar-h1__FU {
+.container .navbar .navbar__flex .navbar__h1 .navbar-h1__FU {
   font-weight: 300;
 }
-.navbar .navbar__flex .navbar__line {
+.container .navbar .navbar__flex .navbar__line {
   width: 2px;
   height: 30px;
   background-color: #000000;
   margin-top: 26px;
   margin-left: 30px;
 }
-.navbar .navbar__flex .navbar__p {
+.container .navbar .navbar__flex .navbar__p {
   width: 150px;
   margin-left: 50px;
   margin-top: 24px;
 }
-.navbar .navbar__row {
+.container .navbar .navbar__row {
   display: flex;
   gap: 20px;
 }
-.navbar .navbar__row img {
+.container .navbar .navbar__row img {
   width: 27px;
   height: 27px;
   margin-top: 10px;
@@ -56,7 +55,25 @@ body {
 
 .hero {
   display: grid;
+  justify-content: space-between;
   grid-template-columns: auto auto auto;
+}
+.hero .hero__page p {
+  margin-top: 300px;
+}
+.hero .hero__page .hero__imgREL {
+  margin-left: -40px;
+}
+.hero .hero__page .hero__imgREL img {
+  margin-left: 50px;
+  cursor: pointer;
+  margin-top: 360px;
+}
+.hero .hero__title {
+  cursor: default;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .hero .hero__title h1 {
   font-weight: 100;
@@ -64,6 +81,21 @@ body {
   letter-spacing: 10px;
   color: rgba(0, 0, 0, 0.2);
 }
-.hero .hero__title .hero__img img {
-  filter: brightness(0.3);
+.hero .hero__title .hero__img .hero-img__lemon {
+  filter: contrast(0.3);
+  position: relative;
+  z-index: 2;
+}
+.hero .hero__title .hero__img .hero-img__lemonBG {
+  position: absolute;
+  left: 630px;
+  top: 470px;
+  filter: contrast(0.3);
+}
+.hero .hero__right .hero-right__search {
+  cursor: pointer;
+}
+.hero .hero__right .hero-right__scrool {
+  margin-left: -30px;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

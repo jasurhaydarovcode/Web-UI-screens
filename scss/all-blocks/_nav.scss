@@ -1,55 +1,39 @@
-.navbar{
+.container {
+  .navbar {
     display: flex;
     width: 100%;
     height: max-content;
     justify-content: space-between;
-    .navbar__flex{
-        display: flex;
-        .navbar__h1{
-            font-weight: bold;
-            font-size: 30px;
-            .navbar-h1__FU{
-                font-weight: 300;
-            }
+    .navbar__flex {
+      display: flex;
+      .navbar__h1 {
+        font-weight: bold;
+        font-size: 30px;
+        .navbar-h1__FU {
+          font-weight: 300;
         }
-        .navbar__line{
-            width: 2px;
-            height: 30px;
-            background-color: #000000;
-            margin-top: 26px;
-            margin-left: 30px;
-        }
-        .navbar__p{
-            width: 150px;
-            margin-left: 50px;
-            margin-top: 24px;
-        }
+      }
+      .navbar__line {
+        width: 2px;
+        height: 30px;
+        background-color: #000000;
+        margin-top: 26px;
+        margin-left: 30px;
+      }
+      .navbar__p {
+        width: 150px;
+        margin-left: 50px;
+        margin-top: 24px;
+      }
     }
-    .navbar__row{
-        display: flex;
-        gap: 20px;
-        img{
-            width: 27px;
-            height: 27px;
-            margin-top: 10px;
-        }
+    .navbar__row {
+      display: flex;
+      gap: 20px;
+      img {
+        width: 27px;
+        height: 27px;
+        margin-top: 10px;
+      }
     }
-}
-.hero{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    .hero__title {
-        h1{
-            font-weight: 100;
-            font-size: 100px;
-            letter-spacing: 10px;
-            // color: grey;
-            color: #00000033;
-        }
-        .hero__img {
-            img{
-                filter: brightness(0.3);
-            }
-        }
-    }
+  }
 }

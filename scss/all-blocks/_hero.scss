@@ -1,0 +1,52 @@
+.hero{
+    display: grid;
+    // display: flex;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto;
+    .hero__page {
+        p{
+            margin-top: 300px;
+        }
+        .hero__imgREL {
+            margin-left: -40px;
+            img{
+                margin-left: 50px;
+                cursor: pointer;
+                margin-top: 360px;
+            }
+        }
+    }
+    .hero__title {
+        cursor: default;
+        user-select: none;
+        h1{
+            font-weight: 100;
+            font-size: 100px;
+            letter-spacing: 10px;
+            // color: grey;
+            color: #00000033;
+        }
+        .hero__img { 
+            .hero-img__lemon{
+                filter: contrast(0.3);
+                position: relative;
+                z-index: 2;
+            }
+            .hero-img__lemonBG{
+                position: absolute;
+                left: 630px;
+                top: 470px;
+                filter: contrast(0.3);
+            }
+        }
+    }
+    .hero__right{
+        .hero-right__search{
+            cursor: pointer;
+        }
+        .hero-right__scrool{
+            margin-left: -30px;
+            cursor: pointer;
+        }
+    }
+}
