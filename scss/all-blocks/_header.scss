@@ -56,39 +56,80 @@
 .nav {
   .siteMain {
     h1 {
-        font-size: 60px;
+      font-size: 60px;
     }
     h2 {
-        font-size: 90px;
-        opacity: 50%;
-        font-weight: 100;
+      font-size: 90px;
+      opacity: 50%;
+      font-weight: 100;
     }
   }
-  .siteImg{
-    img{
-
+  .siteImg {
+    img {
     }
   }
-  .siteMain__Info{
+  .siteMain__Info {
     margin-top: 200px;
     input {
-        width: 275px;
-        height: 59px;
-        font-size: 30px;
-        text-align: center;
-        border: none;
-        border-bottom: 1px solid #EA4335;
-        outline: none;
+      width: 275px;
+      height: 59px;
+      font-size: 30px;
+      text-align: center;
+      border: none;
+      border-bottom: 1px solid #ea4335;
+      outline: none;
     }
     button {
-        width: 102px;
-        height: 59px;
-        border-radius: 15px;
-        background: #FF7064;
-        border: none;
+      width: 102px;
+      height: 59px;
+      border-radius: 15px;
+      background: #ff7064;
+      border: none;
+      cursor: pointer;
+      color: #fff;
+      font-size: 25px;
+    }
+  }
+}
+
+//======================= Four Navbar =======================
+.missPage {
+  display: flex;
+  align-items: center;
+  .missPage__bg {
+    background-image: url(../../img/Don\t_Miss_it/vector.png);
+    width: 50%;
+    height: 790px;
+    background-size: cover;
+  }
+  .missPage__title {
+    margin-left: 100px;
+    h1 {
+      font-size: 60px;
+    }
+    p {
+      width: 380px;
+    }
+    input {
+      width: 374px;
+      height: 40px;
+      border-radius: 10px;
+      border-color: #333333;
+      text-align: center;
+      font-size: 20px;
+    }
+    .missPage__btn {
+      button {
+        width: 142px;
+        height: 40px;
+        border-radius: 10px;
+        margin-left: 120px;
+        margin-top: 20px;
         cursor: pointer;
+        border: none;
+        background-color: #333333;
         color: #fff;
-        font-size: 25px;
+      }
     }
   }
 }

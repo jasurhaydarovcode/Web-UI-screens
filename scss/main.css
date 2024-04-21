@@ -205,16 +205,55 @@ body {
   font-size: 30px;
   text-align: center;
   border: none;
-  border-bottom: 1px solid #EA4335;
+  border-bottom: 1px solid #ea4335;
   outline: none;
 }
 .nav .siteMain__Info button {
   width: 102px;
   height: 59px;
   border-radius: 15px;
-  background: #FF7064;
+  background: #ff7064;
   border: none;
   cursor: pointer;
   color: #fff;
   font-size: 25px;
+}
+
+.missPage {
+  display: flex;
+  align-items: center;
+}
+.missPage .missPage__bg {
+  background-image: url(../../img/Dont_Miss_it/vector.png);
+  width: 50%;
+  height: 790px;
+  background-size: cover;
+}
+.missPage .missPage__title {
+  margin-left: 100px;
+}
+.missPage .missPage__title h1 {
+  font-size: 60px;
+}
+.missPage .missPage__title p {
+  width: 380px;
+}
+.missPage .missPage__title input {
+  width: 374px;
+  height: 40px;
+  border-radius: 10px;
+  border-color: #333333;
+  text-align: center;
+  font-size: 20px;
+}
+.missPage .missPage__title .missPage__btn button {
+  width: 142px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 120px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #333333;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
