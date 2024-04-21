@@ -62,3 +62,27 @@
     }
   }
 }
+
+//======================= Thirty Navbar =======================
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  .navBar__logo{
+    img{
+
+    }
+  }
+  .navbar__menu {
+    display: flex;
+    gap: 40px;
+    .navbar-menu__cn{
+      color: grey;
+    }
+    .navbar-menu__en{
+      border-bottom: 1px solid black;
+    }
+    img{
+      cursor: pointer;
+    }
+  }
+}

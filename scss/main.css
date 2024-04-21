@@ -74,6 +74,24 @@ body {
   margin-top: -20px;
 }
 
+.navBar {
+  display: flex;
+  justify-content: space-between;
+}
+.navBar .navbar__menu {
+  display: flex;
+  gap: 40px;
+}
+.navBar .navbar__menu .navbar-menu__cn {
+  color: grey;
+}
+.navBar .navbar__menu .navbar-menu__en {
+  border-bottom: 1px solid black;
+}
+.navBar .navbar__menu img {
+  cursor: pointer;
+}
+
 .hero {
   display: grid;
   justify-content: space-between;
@@ -168,4 +186,35 @@ body {
 }
 .footerScrooldown .footerScrooldown__arrow {
   margin-left: 15px;
+}
+
+.nav .siteMain h1 {
+  font-size: 60px;
+}
+.nav .siteMain h2 {
+  font-size: 90px;
+  opacity: 50%;
+  font-weight: 100;
+}
+.nav .siteMain__Info {
+  margin-top: 200px;
+}
+.nav .siteMain__Info input {
+  width: 275px;
+  height: 59px;
+  font-size: 30px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #EA4335;
+  outline: none;
+}
+.nav .siteMain__Info button {
+  width: 102px;
+  height: 59px;
+  border-radius: 15px;
+  background: #FF7064;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 25px;
 }/*# sourceMappingURL=main.css.map */
