@@ -92,6 +92,32 @@ body {
   cursor: pointer;
 }
 
+.samNav {
+  padding: 50px;
+}
+.samNav .samNav__sb {
+  display: flex;
+  justify-content: space-between;
+}
+.samNav .samNav__sb .samNav-sb__Table ul {
+  display: flex;
+  gap: 70px;
+  font-family: Proxima Nova;
+  list-style-type: none;
+}
+.samNav .samNav__sb .samNav-sb__Inp img {
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 12px;
+}
+.samNav .samNav__sb .samNav-sb__Inp input {
+  width: 260px;
+  height: 41px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 17px;
+}
+
 .hero {
   display: grid;
   justify-content: space-between;

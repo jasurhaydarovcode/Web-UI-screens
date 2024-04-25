@@ -38,12 +38,11 @@
   }
 }
 
-
 //======================= Second Navbar =======================
-.nav{
+.nav {
   display: flex;
   justify-content: space-between;
-  .nav__btn{
+  .nav__btn {
     cursor: pointer;
     padding-left: 20px;
     padding-top: 7px;
@@ -55,7 +54,7 @@
     vertical-align: middle;
     // display: flex;
     margin-left: 30px;
-    img{
+    img {
       // margin-top: -10px;
       display: block;
       margin-top: -20px;
@@ -64,25 +63,54 @@
 }
 
 //======================= Thirty Navbar =======================
-.navBar{
+.navBar {
   display: flex;
   justify-content: space-between;
-  .navBar__logo{
-    img{
-
+  .navBar__logo {
+    img {
     }
   }
   .navbar__menu {
     display: flex;
     gap: 40px;
-    .navbar-menu__cn{
+    .navbar-menu__cn {
       color: grey;
     }
-    .navbar-menu__en{
+    .navbar-menu__en {
       border-bottom: 1px solid black;
     }
-    img{
+    img {
       cursor: pointer;
+    }
+  }
+}
+//======================= Sam Navbar =======================
+.samNav {
+  padding: 50px;
+  .samNav__sb {
+    display: flex;
+    justify-content: space-between;
+    .samNav-sb__Table {
+      ul {
+        display: flex;
+        gap: 70px;
+        font-family: Proxima Nova;
+        list-style-type: none;
+      }
+    }
+    .samNav-sb__Inp {
+      img{
+        position: absolute;
+        margin-left: 15px;
+        margin-top: 12px;
+      }
+      input {
+        width: 260px;
+        height: 41px;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 17px;
+      }
     }
   }
 }
