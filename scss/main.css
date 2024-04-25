@@ -283,6 +283,7 @@ body {
 .webZeroFive .webZeroFive__ThanksJohn .webZeroFive-ThanksJohn__p {
   color: grey;
   font-size: 24px;
+  font-weight: lighter;
 }
 .webZeroFive .webZeroFive__ThanksJohn .webZeroFive-ThanksJohn__gridL {
   display: flex;
