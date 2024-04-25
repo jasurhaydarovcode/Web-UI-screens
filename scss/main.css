@@ -256,4 +256,30 @@ body {
   border: none;
   background-color: #333333;
   color: #fff;
+}
+
+.webZeroFive {
+  display: flex;
+}
+.webZeroFive .webZeroFive__Beach {
+  background: url("../../img/Thanks_John/Rectangle-1.png") no-repeat;
+  background-size: contain;
+  width: 30%;
+  height: 120vh;
+}
+.webZeroFive .webZeroFive__ThanksJohn {
+  padding-top: 100px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+.webZeroFive .webZeroFive__ThanksJohn .webZeroFive-ThanksJohn__title {
+  font-size: 60px;
+}
+.webZeroFive .webZeroFive__ThanksJohn .webZeroFive-ThanksJohn__title span {
+  font-weight: lighter;
+}
+.webZeroFive .webZeroFive__ThanksJohn .webZeroFive-ThanksJohn__p {
+  color: grey;
+  font-size: 24px;
 }/*# sourceMappingURL=main.css.map */
