@@ -275,6 +275,7 @@ body {
 }
 .webZeroFive .webZeroFive__ThanksJohn .webZeroFive-ThanksJohn__title {
   font-size: 60px;
+  padding-top: 100px;
 }
 .webZeroFive .webZeroFive__ThanksJohn .webZeroFive-ThanksJohn__title span {
   font-weight: lighter;
@@ -282,4 +283,18 @@ body {
 .webZeroFive .webZeroFive__ThanksJohn .webZeroFive-ThanksJohn__p {
   color: grey;
   font-size: 24px;
+}
+.webZeroFive .webZeroFive__ThanksJohn .webZeroFive-ThanksJohn__gridL {
+  display: flex;
+  justify-content: space-between;
+  font-weight: lighter;
+  width: 400px;
+}
+.webZeroFive .webZeroFive__ThanksJohn .webZeroFive-ThanksJohn__gridL span {
+  color: #009E06;
+}
+.webZeroFive .webZeroFive__ThanksJohn .footer-ques {
+  color: gray;
+  font-size: 12px;
+  padding-top: 60px;
 }/*# sourceMappingURL=main.css.map */

@@ -152,6 +152,7 @@
       }
       .webZeroFive-ThanksJohn__title{
         font-size: 60px;
+        padding-top: 100px;
         span{
           // font-weight: 300px;
           font-weight: lighter;
@@ -160,6 +161,20 @@
       .webZeroFive-ThanksJohn__p{
         color: grey;
         font-size: 24px;
+      }
+      .webZeroFive-ThanksJohn__gridL{
+        display: flex;
+        justify-content: space-between;
+        font-weight: lighter;
+        width: 400px;
+        span{
+          color: #009E06;
+        }
+      }
+      .footer-ques{
+        color: gray;
+        font-size: 12px;
+        padding-top: 60px;
       }
     }
 }
