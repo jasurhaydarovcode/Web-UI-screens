@@ -2,3 +2,8 @@
     font-family: Forma DJR Deck;
     src: url(../../fonts/2-FormaDJRText-ExtraLight-Testing.ttf);
 }
+
+@font-face {
+    font-family: Proxima Nova;
+    src: url(./HindSiliguri-Light.ttf);
+}

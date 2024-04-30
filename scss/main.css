@@ -117,6 +117,25 @@ body {
   font-size: 17px;
 }
 
+.samNav .samHero {
+  margin-left: 90px;
+  margin-top: -50px;
+}
+.samNav .samHero .samLogo {
+  width: 545px;
+}
+.samNav .samHero .samHero__title {
+  font-family: Proxima Nova, sans-serif;
+  font-weight: lighter;
+  color: #0f0f0f;
+  font-size: 64px;
+  margin-left: 130px;
+  margin-top: -70px;
+}
+
+.samNav__second .top__img {
+  float: right;
+}
 .hero {
   display: grid;
   justify-content: space-between;

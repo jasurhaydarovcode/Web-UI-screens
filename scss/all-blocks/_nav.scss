@@ -99,7 +99,7 @@
       }
     }
     .samNav-sb__Inp {
-      img{
+      img {
         position: absolute;
         margin-left: 15px;
         margin-top: 12px;
@@ -112,5 +112,33 @@
         font-size: 17px;
       }
     }
+  }
+}
+
+.samNav {
+  .samHero {
+    margin-left: 90px;
+    margin-top: -50px;
+    .samLogo {
+      width: 545px;
+    }
+    .samHero__title {
+      font-family: Proxima Nova, sans-serif;
+      font-weight: lighter;
+      color: #0f0f0f;
+      font-size: 64px;
+      margin-left: 130px;
+      margin-top: -70px;
+    }
+  }
+}
+
+.samNav__second {
+  .top__img{
+    float: right;
+    // width: 930px;
+  }
+  .bottom__img{
+
   }
 }
