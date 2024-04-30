@@ -17,7 +17,6 @@ body {
 .container .navbar {
   display: flex;
   width: 100%;
-  height: -moz-max-content;
   height: max-content;
   justify-content: space-between;
 }
@@ -136,9 +135,7 @@ body {
 }
 .hero .hero__title {
   cursor: default;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 .hero .hero__title h1 {
   font-weight: 100;
@@ -324,4 +321,6 @@ body {
   color: gray;
   font-size: 12px;
   padding-top: 60px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
