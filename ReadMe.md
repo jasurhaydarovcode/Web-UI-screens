@@ -11,12 +11,12 @@
 npm run pug
 ```
 
-## `PUG` in `Compiler` file 
+## `PUG` in `Compiler` Components file 
 ```bash
-npm run pin
+npm run in-pug
 ```
 
 ## `SASS` 
 ```bash
-npm run sass
+npm run scss
 ```
