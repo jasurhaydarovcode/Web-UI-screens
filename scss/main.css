@@ -136,6 +136,71 @@ body {
 .samNav__second .top__img {
   float: right;
 }
+.float-aire {
+  display: flex;
+}
+
+.aire-image {
+  width: 50%;
+  height: 100vh;
+  background: url(../../img/ANTIDESIGN/Frame\ 962.png) no-repeat;
+  background-size: contain;
+}
+
+.aire-navigation {
+  margin-top: 50px;
+  margin-left: -50px;
+}
+.aire-navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+.aire-navigation ul li {
+  cursor: pointer;
+}
+
+.aire-title {
+  margin-left: 50px;
+  margin-top: 170px;
+}
+.aire-title h1 {
+  font-size: 72px;
+  font-family: serif;
+}
+.aire-title h1 span {
+  font-family: Forma DJR Deck;
+}
+.aire-title p {
+  width: 440px;
+  text-align: center;
+}
+
+.aire-bottom {
+  margin-top: 230px;
+  width: 469px;
+  height: 58px;
+  background: #D5DACC;
+}
+
+.AllIn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.aire-bottom_first {
+  font-size: 14px;
+}
+.aire-bottom_first span {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.aire-bottom_second {
+  font-size: 14px;
+}
+
 .hero {
   display: grid;
   justify-content: space-between;

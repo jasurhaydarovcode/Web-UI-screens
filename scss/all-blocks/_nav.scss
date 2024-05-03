@@ -142,3 +142,72 @@
 
   }
 }
+// ======================== Aire ============================
+.float-aire {
+  display: flex;
+}
+
+.aire-image  {
+  width: 50%;
+  height: 100vh;
+  // background-color: red;
+  background: url(../../img/ANTIDESIGN/Frame\ 962.png) no-repeat;
+  background-size: contain;
+}
+
+.aire-navigation {
+  margin-top: 50px;
+  margin-left: -50px;
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    li {
+      cursor: pointer;
+    }
+  }
+}
+
+.aire-title {
+  margin-left: 50px;
+  margin-top: 170px;
+  h1 {
+    font-size: 72px;
+    font-family: serif;
+    span {
+      font-family: Forma DJR Deck;
+    }
+  }
+  p {
+    width: 440px;
+    text-align: center;
+  }
+}
+
+.aire-bottom {
+  margin-top: 230px;
+  width: 469px;
+  height: 58px;
+  background: #D5DACC;
+  // display: flex;
+  // justify-content: space-around;
+  // align-items: center;
+}
+
+.AllIn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.aire-bottom_first {
+  font-size: 14px;
+  span {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+  }
+}
+
+.aire-bottom_second {
+  font-size: 14px;
+}
