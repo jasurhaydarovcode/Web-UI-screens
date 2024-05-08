@@ -1,9 +1,17 @@
+/* Forma DJR */
 @font-face {
     font-family: Forma DJR Deck;
-    src: url(../../fonts/2-FormaDJRText-ExtraLight-Testing.ttf);
+    src: url(./FormaDJR/2-FormaDJRText-ExtraLight-Testing.ttf);
 }
 
+/* Proxima Nova */
 @font-face {
     font-family: Proxima Nova;
-    src: url(./HindSiliguri-Light.ttf);
+    src: url(./FormaDJR/HindSiliguri-Light.ttf);
+}
+
+/* Helvetica */
+@font-face {
+    font-family: Helvetica;
+    src: url(./Helvetica/Helvetica.ttf);
 }

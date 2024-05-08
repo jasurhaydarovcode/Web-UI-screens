@@ -407,4 +407,28 @@ body {
   padding-top: 60px;
 }
 
+.menu {
+  display: flex;
+  justify-content: end;
+}
+.menu p {
+  font-size: 30px;
+  font-family: Helvetica;
+}
+
+.Scroll {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.Scroll p {
+  font-size: 30px;
+  margin-left: 100px;
+}
+
+.kris {
+  font-size: 160px;
+  margin-left: 100px;
+}
+
 /*# sourceMappingURL=main.css.map */
