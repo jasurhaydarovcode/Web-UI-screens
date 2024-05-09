@@ -14,7 +14,36 @@
     <!-- Flowbite cdn -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
 </head>
+    <style>
+        /* Scrool */
+        body {
+            --sb-track-color: #ffffff;
+            --sb-thumb-color: #1f2937;
+            --sb-size: 14px;
+        }
 
+        body::-webkit-scrollbar {
+            width: var(--sb-size)
+        }
+
+        body::-webkit-scrollbar-track {
+            background: var(--sb-track-color);
+            border-radius: 14px;
+        }
+
+        body::-webkit-scrollbar-thumb {
+            background: var(--sb-thumb-color);
+            border-radius: 14px;
+            border: 2px solid #ffffff;
+        }
+
+        @supports not selector(::-webkit-scrollbar) {
+            body {
+                    scrollbar-color: var(--sb-thumb-color)
+                                var(--sb-track-color);
+            }
+        }
+    </style>
 <body>
     
         <nav class="fixed top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
