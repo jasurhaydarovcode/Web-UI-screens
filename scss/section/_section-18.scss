@@ -1,0 +1,47 @@
+// styles.scss
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  .header18, .footer18 {
+    padding: 4rem;
+  
+    .nav18 {
+      .container18 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        .left18, .right18 {
+          display: flex;
+        }
+      }
+    }
+  }
+  
+  .main18 {
+    flex-grow: 1;
+  }
+  .works18 {
+    color: #00594F;
+    text-decoration: none;
+  }
+   .info-contact18, .kb18, .who-we-are18 {
+    text-decoration: none;
+    color: black;
+  }
+  .main-text18 {
+    font-size: 120px;
+    font-weight: lighter;
+    font-family: serif;
+    rotate: 270deg;
+    position: relative;
+    top: -550px;
+    color: #00594F;
+  }
+  
+  
