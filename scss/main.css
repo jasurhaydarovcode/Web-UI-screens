@@ -533,10 +533,10 @@ body {
 }
 .soBody .divEZ .L {
   position: absolute;
-  left: 1700px;
+  left: 1690px;
 }
 .soBody .info-Martin {
-  margin-top: 70px;
+  margin-top: 120px;
   font-family: sans-serif;
 }
 
@@ -545,12 +545,23 @@ body {
   border: 1px solid white;
   width: 100px;
   height: 100px;
-  margin-left: 1000px;
+  margin-left: 1400px;
 }
 .Radius-click p {
   font-size: 14px;
   text-align: center;
   margin-top: 34px;
+}
+
+.bottom-soBig {
+  display: flex;
+}
+.bottom-soBig p {
+  font-size: 300px;
+  margin: 0;
+  position: absolute;
+  left: 700px;
+  top: 700px;
 }
 
 .big-14-items {
