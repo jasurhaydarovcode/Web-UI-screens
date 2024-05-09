@@ -502,6 +502,57 @@ body {
   margin-left: 150px;
 }
 
+.soBody {
+  background-color: #262626;
+  padding-left: 80px;
+  padding-top: 80px;
+  font-family: serif;
+  color: white;
+}
+.soBody .divEZ {
+  width: 333px;
+  height: 498px;
+  background: url(../../img/ZELA/Rectangle\ 244.png) no-repeat;
+  background-size: contain;
+}
+.soBody .divEZ .soBig {
+  font-size: 300px;
+  position: absolute;
+}
+.soBody .divEZ .E {
+  left: 410px;
+  top: -290px;
+}
+.soBody .divEZ .Z {
+  margin-left: -50px;
+}
+.soBody .divEZ .flyBeard {
+  position: absolute;
+  left: 800px;
+  top: 350px;
+}
+.soBody .divEZ .L {
+  position: absolute;
+  left: 1700px;
+}
+.soBody .info-Martin {
+  margin-top: 70px;
+  font-family: sans-serif;
+}
+
+.Radius-click {
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 100px;
+  height: 100px;
+  margin-left: 1000px;
+}
+.Radius-click p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 34px;
+}
+
 .big-14-items {
   display: grid;
   grid-template-columns: auto auto;
