@@ -10,14 +10,9 @@
 
 # npm commands
 
-## `PUG` `Compiler` main
+## `PUG` `Compiler`
 ```bash
 npm run pug
-```
-
-## `PUG` in `Compiler` Components file 
-```bash
-npm run in-pug
 ```
 
 ## `SASS` 

@@ -11,7 +11,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "pug": "pug -w ./ -o ./html -P",
-    "in-pug": "pug -w ./ -o ./html -P",
     "scss": "sass -w scss/"
   },
   "author": "Jasurbek",
