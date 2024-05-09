@@ -502,4 +502,44 @@ body {
   margin-left: 150px;
 }
 
+.big-14-items {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.big-14-items .big-14-items__img {
+  position: relative;
+  right: 265px;
+}
+.big-14-items .big-14-left {
+  margin-right: 200px;
+  margin-top: 40px;
+}
+.big-14-items .big-14-left .about-shit {
+  color: #000;
+  font-size: 36px;
+  margin: 15px 0;
+}
+
+.pElement {
+  width: 413px;
+  line-height: 34px;
+  height: 510px;
+}
+
+.bout- {
+  font-size: 240px;
+  margin-top: -70px;
+}
+
+.absolute-bg-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1000px;
+  height: 1000px;
+  z-index: -1;
+  left: 875px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);
+}
+
 /*# sourceMappingURL=main.css.map */
