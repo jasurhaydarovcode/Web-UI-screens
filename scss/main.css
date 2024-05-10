@@ -662,6 +662,7 @@ body {
 }
 
 .body-19 {
+  color: white;
   background: url(../../img/we-craft/img.png) no-repeat;
   background-size: cover;
 }
@@ -670,6 +671,47 @@ body {
   height: 100vh;
   background: url(../../img/we-craft/vector\ shape.png) no-repeat;
   background-size: cover;
+}
+
+.right_div-sidebar {
+  width: 4%;
+  height: 100vh;
+}
+
+.nav_twoline {
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+.nav_hundred-line {
+  position: absolute;
+  left: 65px;
+  width: 1px;
+  height: 100%;
+}
+
+.nav-justify {
+  display: flex;
+  justify-content: space-between;
+}
+
+.in-justify {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+  margin-left: -1000px;
+}
+
+.left_ {
+  padding-top: 50px;
+}
+
+.title-ab {
+  position: absolute;
+  font-size: 80px;
+  line-height: 90px;
+  left: 200px;
+  top: 400px;
 }
 
 /*# sourceMappingURL=main.css.map */
