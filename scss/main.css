@@ -617,6 +617,28 @@ body {
   margin: 0;
 }
 
+.page-15 {
+  font-family: Forma DJR Deck, sans-serif;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.container-15 {
+  padding: 100px 0 0 100px;
+}
+
+.section-15 .section-15__title {
+  height: 150px;
+}
+.section-15 .bottom-dse {
+  position: absolute;
+  bottom: -370px;
+  left: 0;
+  font-size: 580px;
+  font-weight: bold;
+  letter-spacing: 38px;
+}
+
 body {
   display: flex;
   flex-direction: column;
