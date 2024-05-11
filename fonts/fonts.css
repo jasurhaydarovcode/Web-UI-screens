@@ -15,3 +15,13 @@
     font-family: Helvetica;
     src: url(./Helvetica/Helvetica.ttf);
 }
+
+/* Neue Haas */
+@font-face {
+    font-family: NeueLight;
+    src: url(./Neue-Haas-Grotesk-Display-Pro/NeueHaasDisplayLight.ttf);
+}
+@font-face {
+    font-family: NeueXThin;
+    src: url(./Neue-Haas-Grotesk-Display-Pro/NeueHaasDisplayXThin.ttf);
+}

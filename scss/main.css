@@ -407,6 +407,57 @@ body {
   padding-top: 60px;
 }
 
+.body-module {
+  background: url(../../img/MODEL-A/357c8ab6a3a4880a008221c5d82b551a.jfif) no-repeat;
+  background-size: cover;
+}
+
+.nav-module {
+  padding: 20px 50px 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-module div ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+.nav-module div ul li {
+  cursor: pointer;
+}
+.nav-module div img {
+  cursor: pointer;
+}
+
+.header_modle {
+  font-family: NeueXThin;
+  margin: 0 auto;
+}
+.header_modle h1 {
+  font-size: 48px;
+  color: #3F3F3F;
+}
+.header_modle div {
+  display: flex;
+  gap: 20px;
+}
+.header_modle div button {
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+}
+.header_modle div .module-btn {
+  width: 116px;
+  height: 58px;
+  background-color: #fff;
+  color: #0F0F0F;
+}
+.header_modle div .sec-module-btn {
+  background: transparent;
+  color: #0F0F0F;
+}
+
 .menu {
   display: flex;
   justify-content: end;
