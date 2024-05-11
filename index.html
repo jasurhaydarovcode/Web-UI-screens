@@ -1,300 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <!-- Meta -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Title -->
-    <title>Web UI Kit</title>
-    <!-- Fav Icon -->
-    <link rel="icon" href="./.github/favicon.png">
-    <!-- Tailwind CSS cdn -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Flowbite cdn -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
-</head>
-    <style>
-        /* Scrool */
-        body {
-            --sb-track-color: #ffffff;
-            --sb-thumb-color: #1f2937;
-            --sb-size: 14px;
-        }
-
-        body::-webkit-scrollbar {
-            width: var(--sb-size)
-        }
-
-        body::-webkit-scrollbar-track {
-            background: var(--sb-track-color);
-            border-radius: 14px;
-        }
-
-        body::-webkit-scrollbar-thumb {
-            background: var(--sb-thumb-color);
-            border-radius: 14px;
-            border: 2px solid #ffffff;
-        }
-
-        @supports not selector(::-webkit-scrollbar) {
-            body {
-                    scrollbar-color: var(--sb-thumb-color)
-                                var(--sb-track-color);
-            }
-        }
-    </style>
-<body>
-    
-        <nav class="fixed top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
-            <div class="px-3 py-3 lg:px-5 lg:pl-3">
-            <div class="flex items-center justify-between">
-                <div class="flex items-center justify-start rtl:justify-end">
-                <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
-                    <span class="sr-only">Open sidebar</span>
-                    <img src="./art/screenshoots/web_01.jpg" alt="">
-                </button>
-                <a href="/index.html" class="flex ms-2 md:me-24">
-                    <img src="./.github/favicon.png" class="h-8 me-3" alt="FlowBite Logo" />
-                    <span class="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-white">WEB UI KIT</span>
-                </a>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="WEB UI KIT" />
+        <meta name="author" content="Jasurbek Haydarov" />
+        <!-- Title -->
+        <title>WEB UI KIT</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href=".github/favicon.png" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="bootstrap/styles.css" rel="stylesheet" />
+    </head>
+    <body class="bg-dark">
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-lg-5">
+                <a class="navbar-brand" href="/">WEB UI KIT</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="https://github.com/jasurhaydarovcode" target="_blank">Author</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://github.com/jasurhaydarovcode/Web-UI-screens" target="_blank">Code View</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.figma.com/file/PYxKE43COXGOtyVP7QT9nG/Mobile-and-Web-UI-Kit-(190%2B)-(Community)?type=design&node-id=20-2053&mode=design" target="_blank">Figma</a></li>
+                    </ul>
                 </div>
-                <div class="flex items-center">
-                    <div class="flex items-center ms-3">
-                    <div>
-                        <button type="button" class="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" aria-expanded="false" data-dropdown-toggle="dropdown-user">
-                        <span class="sr-only">Open user menu</span>
-                        <img class="w-8 h-8 rounded-full" src="https://avatars.githubusercontent.com/u/157284471?v=4" alt="user photo">
-                        </button>
-                    </div>
-                    <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow dark:bg-gray-700 dark:divide-gray-600" id="dropdown-user">
-                        <div class="px-4 py-3" role="none">
-                        <p class="text-sm text-gray-900 dark:text-white" role="none">
-                            Jasurbek Haydarov
-                        </p>
-                        <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-300" role="none">
-                            jasurhaydarovcode@gmail.com
-                        </p>
-                        </div>
-                        <ul class="py-1" role="none">
-                        <!-- <li>
-                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">Dashboard</a>
-                        </li>
-                        <li>
-                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">Settings</a>
-                        </li>
-                        <li>
-                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">Earnings</a>
-                        </li> -->
-                        <li>
-                            <a href="https://www.google.com/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">Sign out</a>
-                        </li>
-                        </ul>
-                    </div>
-                    </div>
-                </div>
-            </div>
             </div>
         </nav>
-        
-        <aside id="logo-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen pt-20 transition-transform -translate-x-full bg-white border-r border-gray-200 sm:translate-x-0 dark:bg-gray-800 dark:border-gray-700" aria-label="Sidebar">
-            <div class="h-full px-3 pb-4 overflow-y-auto bg-white dark:bg-gray-800">
-                <ul class="space-y-2 font-medium">
-                    <li>
-                        <a href="https://github.com/jasurhaydarovcode" target="_blank" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                           <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
-                              <path d="M14 2a3.963 3.963 0 0 0-1.4.267 6.439 6.439 0 0 1-1.331 6.638A4 4 0 1 0 14 2Zm1 9h-1.264A6.957 6.957 0 0 1 15 15v2a2.97 2.97 0 0 1-.184 1H19a1 1 0 0 0 1-1v-1a5.006 5.006 0 0 0-5-5ZM6.5 9a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9ZM8 10H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5Z"/>
-                           </svg>
-                           <span class="flex-1 ms-3 whitespace-nowrap">Creator</span>
-                        </a>
-                     </li>
-                <li>
-                    <a href="https://github.com/jasurhaydarovcode/Web-UI-screens" target="_blank" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                        <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 16">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 8h11m0 0L8 4m4 4-4 4m4-11h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3"/>
-                        </svg>
-                        <span class="flex-1 ms-3 whitespace-nowrap">Project code</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.figma.com/design/PYxKE43COXGOtyVP7QT9nG/Mobile-and-Web-UI-Kit-(190%2B)-(Community)?node-id=144-27&t=3FLdoXyp2KUVHYPE-0" target="_blank" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                        <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M5 5V.13a2.96 2.96 0 0 0-1.293.749L.879 3.707A2.96 2.96 0 0 0 .13 5H5Z"/>
-                            <path d="M6.737 11.061a2.961 2.961 0 0 1 .81-1.515l6.117-6.116A4.839 4.839 0 0 1 16 2.141V2a1.97 1.97 0 0 0-1.933-2H7v5a2 2 0 0 1-2 2H0v11a1.969 1.969 0 0 0 1.933 2h12.134A1.97 1.97 0 0 0 16 18v-3.093l-1.546 1.546c-.413.413-.94.695-1.513.81l-3.4.679a2.947 2.947 0 0 1-1.85-.227 2.96 2.96 0 0 1-1.635-3.257l.681-3.397Z"/>
-                            <path d="M8.961 16a.93.93 0 0 0 .189-.019l3.4-.679a.961.961 0 0 0 .49-.263l6.118-6.117a2.884 2.884 0 0 0-4.079-4.078l-6.117 6.117a.96.96 0 0 0-.263.491l-.679 3.4A.961.961 0 0 0 8.961 16Zm7.477-9.8a.958.958 0 0 1 .68-.281.961.961 0 0 1 .682 1.644l-.315.315-1.36-1.36.313-.318Zm-5.911 5.911 4.236-4.236 1.359 1.359-4.236 4.237-1.7.339.341-1.699Z"/>
-                        </svg>
-                        <span class="flex-1 ms-3 whitespace-nowrap">Figma view</span>
-                    </a>
-                </li>
-                </ul>
+        <!-- Header-->
+        <header class="py-5">
+            <div class="container px-lg-5">
+                <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
+                    <div class="m-4 m-lg-5">
+                        <h1 class="display-5 fw-bold">WEB UI KIT</h1>
+                        <!-- <p class="fs-4">Bootstrap utility classes are used to create this jumbotron since the old component has been removed from the framework. Why create custom CSS when you can use utilities?</p> -->
+                        <a class="btn btn-primary btn-lg" href="#Cards-St">GET STARRED</a>
+                    </div>
+                </div>
             </div>
-        </aside>
-        
-        <div class="p-4 sm:ml-64">
-            <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700 mt-14">
-                <div class="grid grid-cols-3 gap-4 mb-4">
-                    <div class="flex items-center justify-center w-[417px] h-[360px] rounded bg-gray-50 dark:bg-gray-800">
-                        <a href="./html/components/index.html">
-                            <p class="text-2xl text-gray-400 dark:text-gray-500">
-                                <img src="art/screenshoots/web_01.jpg" alt="">
-                            </p>
-                        </a>
+        </header>
+        <!-- Page Content-->
+        <section class="pt-4">
+            <div class="container px-lg-5">
+                <!-- Page Features-->
+                <div id="Cards-St" class="row gx-lg-5">
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body g-0">
+                                <a href="./html/components/index.html">
+                                    <img class="w-100" src="./art/screenshoots/web_01.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="flex items-center justify-center w-[417px] h-[360px] rounded bg-gray-50 dark:bg-gray-800">
-                        <p class="text-2xl text-gray-400 dark:text-gray-500">
-                            <a href="./html/components/atten.html">
-                                <p class="text-2xl text-gray-400 dark:text-gray-500">
-                                    <img src="art/screenshoots/web_02.jpg" alt="">
-                                </p>
-                            </a>
-                        </p>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body g-0">
+                                <a href="./html/components/atten.html">
+                                    <img class="w-100" src="./art/screenshoots/web_02.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="flex items-center justify-center w-[417px] h-[360px] rounded bg-gray-50 dark:bg-gray-800">
-                        <a href="./html/components/cooming.html">
-                            <p class="text-2xl text-gray-400 dark:text-gray-500">
-                                <img src="art/screenshoots/web_03.jpg" alt="">
-                            </p>
-                        </a>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body g-0">
+                                <a href="./html/components/kristen.html">
+                                    <img class="w-100" src="./art/screenshoots/web_03.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="grid grid-cols-3 gap-4 mb-4">
-                    <div class="flex items-center justify-center w-[417px] h-[360px] rounded bg-gray-50 dark:bg-gray-800">
-                        <a href="./html/components/dont-miss-it.html">
-                            <p class="text-2xl text-gray-400 dark:text-gray-500">
-                                <img src="art/screenshoots/web_04.png" alt="">
-                            </p>
-                        </a>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body g-0">
+                                <a href="./html/components/dont-miss-it.html">
+                                    <img class="w-100" src="./art/screenshoots/web_04.png" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="flex items-center justify-center w-[417px] h-[360px] rounded bg-gray-50 dark:bg-gray-800">
-                        <p class="text-2xl text-gray-400 dark:text-gray-500">
-                            <a href="./html/components/thanks-John.html">
-                                <p class="text-2xl text-gray-400 dark:text-gray-500">
-                                    <img src="art/screenshoots/web_05.png" alt="">
-                                </p>
-                            </a>
-                        </p>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body  g-0">
+                                <a href="./html/components/thanks-John.html">
+                                    <img class="w-100" src="./art/screenshoots/web_05.png" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="flex items-center justify-center w-[417px] h-[360px] rounded bg-gray-50 dark:bg-gray-800">
-                        <a href="./html/components/sam.html">
-                            <p class="text-2xl text-gray-400 dark:text-gray-500">
-                                <img src="art/screenshoots/web_06.png" alt="">
-                            </p>
-                        </a>
-                    </div>
-                </div>
-                <div class="grid grid-cols-3 gap-4 mb-4">
-                    <div class="flex items-center justify-center w-[417px] h-[360px] rounded bg-gray-50 dark:bg-gray-800">
-                        <a href="./html/components/aire.html">
-                            <p class="text-2xl text-gray-400 dark:text-gray-500">
-                                <img src="art/screenshoots/web_07.png" alt="">
-                            </p>
-                        </a>
-                    </div>
-                    <div class="flex items-center justify-center w-[417px] h-[360px] rounded bg-gray-50 dark:bg-gray-800">
-                        <p class="text-2xl text-gray-400 dark:text-gray-500">
-                            <a href="./html/components/model-a.html">
-                                <p class="text-2xl text-gray-400 dark:text-gray-500">
-                                    <img src="art/screenshoots/web_08.png" alt="">
-                                </p>
-                            </a>
-                        </p>
-                    </div>
-                    <div class="flex items-center justify-center w-[417px] h-[360px] rounded bg-gray-50 dark:bg-gray-800">
-                        <a href="./html/components/kristen.html">
-                            <p class="text-2xl text-gray-400 dark:text-gray-500">
-                                <img src="art/screenshoots/web_09.png" alt="">
-                            </p>
-                        </a>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body g-0">
+                                <a href="./html/components/sam.html">
+                                    <img class="w-100" src="./art/screenshoots/web_06.png" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="grid grid-cols-3 gap-4 mb-4">
-                    <div class="flex items-center justify-center w-[417px] h-[360px] rounded bg-gray-50 dark:bg-gray-800">
-                        <a href="./html/components/homo.html">
-                            <p class="text-2xl text-gray-400 dark:text-gray-500">
-                                <img src="art/screenshoots/web_10.png" alt="">
-                            </p>
-                        </a>
+                <!-- more 6 card -->
+                <div class="row gx-lg-5">
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body g-0">
+                                <a href="./html/components/aire.html">
+                                    <img class="w-100" src="./art/screenshoots/web_07.png" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="flex items-center justify-center w-[417px] h-[360px] rounded bg-gray-50 dark:bg-gray-800">
-                        <p class="text-2xl text-gray-400 dark:text-gray-500">
-                            <a href="./html/components/atwork.html">
-                                <p class="text-2xl text-gray-400 dark:text-gray-500">
-                                    <img src="art/screenshoots/web_11.png" alt="">
-                                </p>
-                            </a>
-                        </p>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body g-0">
+                                <a href="./html/components/index.html">
+                                    <img class="w-100" src="./art/screenshoots/web_08.png" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="flex items-center justify-center w-[417px] h-[360px] rounded bg-gray-50 dark:bg-gray-800">
-                        <a href="./html/components/explore.html">
-                            <p class="text-2xl text-gray-400 dark:text-gray-500">
-                                <img src="art/screenshoots/web_12.png" alt="">
-                            </p>
-                        </a>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body g-0">
+                                <a href="./html/components/kristen.html">
+                                    <img class="w-100" src="./art/screenshoots/web_09.png" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="grid grid-cols-3 gap-4 mb-4">
-                    <div class="flex items-center justify-center w-[417px] h-[360px] rounded bg-gray-50 dark:bg-gray-800">
-                        <a href="./html/components/zela.html">
-                            <p class="text-2xl text-gray-400 dark:text-gray-500">
-                                <img src="art/screenshoots/web_13.png" alt="">
-                            </p>
-                        </a>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body g-0">
+                                <a href="./html/components/homo.html">
+                                    <img class="w-100" src="./art/screenshoots/web_10.png" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="flex items-center justify-center w-[417px] h-[360px] rounded bg-gray-50 dark:bg-gray-800">
-                        <p class="text-2xl text-gray-400 dark:text-gray-500">
-                            <a href="./html/components/about.html">
-                                <p class="text-2xl text-gray-400 dark:text-gray-500">
-                                    <img src="art/screenshoots/web_14.png" alt="">
-                                </p>
-                            </a>
-                        </p>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body g-0">
+                                <a href="./html/components/atwork.html">
+                                    <img class="w-100" src="./art/screenshoots/web_11.png" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="flex items-center justify-center w-[417px] h-[360px] rounded bg-gray-50 dark:bg-gray-800">
-                        <a href="./html/components/">
-                            <p class="text-2xl text-gray-400 dark:text-gray-500">
-                                <img src="art/screenshoots/web_15.png" alt="">
-                            </p>
-                        </a>
-                    </div>
-                </div>
-                <div class="grid grid-cols-3 gap-4 mb-4">
-                    <div class="flex items-center justify-center w-[417px] h-[360px] rounded bg-gray-50 dark:bg-gray-800">
-                        <a href="./html/components/index.html">
-                            <p class="text-2xl text-gray-400 dark:text-gray-500">
-                                <img src="art/screenshoots/web_16.png" alt="">
-                            </p>
-                        </a>
-                    </div>
-                    <div class="flex items-center justify-center w-[417px] h-[360px] rounded bg-gray-50 dark:bg-gray-800">
-                        <p class="text-2xl text-gray-400 dark:text-gray-500">
-                            <a href="./html/components/atten.html">
-                                <p class="text-2xl text-gray-400 dark:text-gray-500">
-                                    <img src="art/screenshoots/web_17.png" alt="">
-                                </p>
-                            </a>
-                        </p>
-                    </div>
-                    <div class="flex items-center justify-center w-[417px] h-[360px] rounded bg-gray-50 dark:bg-gray-800">
-                        <a href="./html/components/cooming.html">
-                            <p class="text-2xl text-gray-400 dark:text-gray-500">
-                                <img src="art/screenshoots/web_18.png" alt="">
-                            </p>
-                        </a>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body g-0">
+                                <a href="./html/components/explore.html">
+                                    <img class="w-100" src="./art/screenshoots/web_12.png" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!--  -->
-                <div class="flex items-center justify-center h-[500px] mb-4 rounded bg-gray-50 dark:bg-gray-800">
-                    <a href="./html/components/we-craft.html">
-                        <p class="text-2xl text-gray-400 dark:text-gray-500">
-                            <img src="art/screenshoots/web_19.png" width="700px" alt="">
-                        </p>
-                    </a>
-                 </div>
+                <!-- More 6 -->
+                <div class="row gx-lg-5">
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body g-0">
+                                <a href="./html/components/zela.html">
+                                    <img class="w-100" src="./art/screenshoots/web_13.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body g-0">
+                                <a href="./html/components/about.html">
+                                    <img class="w-100" src="./art/screenshoots/web_14.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body g-0">
+                                <a href="#">
+                                    <img class="w-100" src="./art/screenshoots/web_15.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body g-0">
+                                <a href="./html/components/index.html">
+                                    <img class="w-100" src="./art/screenshoots/web_16.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body g-0">
+                                <a href="./html/components/index.html">
+                                    <img class="w-100" src="./art/screenshoots/web_17.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body g-0">
+                                <a href="./html/components/art.html">
+                                    <img class="w-100" src="./art/screenshoots/web_18.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-  
-    <!-- Flowblite JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-</body>
-
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2024</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
 </html>

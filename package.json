@@ -2,12 +2,11 @@
   "dependencies": {
     "normalize.css": "^8.0.1",
     "pug": "^3.0.2",
-    "sass": "^1.75.0",
-    "tailwindcss": "^3.4.3"
+    "sass": "^1.75.0"
   },
   "name": "mobile-and-web-ui-kit",
-  "version": "1.0.0",
-  "description": "Mobile And Web Iu Kit",
+  "version": "2.0.0",
+  "description": "Mobile And Web Ui Kit",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,5 +14,14 @@
     "scss": "sass -w scss/"
   },
   "author": "Jasurbek",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasurhaydarovcode/Web-UI-screens.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasurhaydarovcode/Web-UI-screens/issues"
+  },
+  "homepage": "https://github.com/jasurhaydarovcode/Web-UI-screens#readme"
 }
