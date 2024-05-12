@@ -9,6 +9,9 @@
 ## index.html
 <img src="./.github/main.png">
 
+## index.html :update version
+<img src="./.github/main-2.png">
+
 ---
 
 ## Pages 
@@ -50,4 +53,9 @@ npm run pug
 ## `SASS` Compiler
 ```bash
 npm run scss
+```
+
+## `Parcel` Compiler
+```bash
+npm run dev 
 ```
