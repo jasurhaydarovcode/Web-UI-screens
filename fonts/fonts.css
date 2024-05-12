@@ -25,3 +25,9 @@
     font-family: NeueXThin;
     src: url(./Neue-Haas-Grotesk-Display-Pro/NeueHaasDisplayXThin.ttf);
 }
+
+/* AUTO WIDE || CondorWide */
+@font-face {
+    font-family: CondorWide;
+    src: url(./Autowide/Audiowide-Regular.ttf);
+}

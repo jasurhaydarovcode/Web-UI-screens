@@ -778,6 +778,40 @@ body {
   color: #000;
 }
 
+.work-katy {
+  padding: 50px 70px;
+  overflow: hidden;
+}
+
+.work-title-katy {
+  color: #D20022;
+}
+
+.katy-title-work {
+  font-size: 96px;
+  font-family: CondorWide;
+}
+
+.rad-card-child {
+  position: relative;
+  left: 60%;
+  top: 100px;
+}
+.rad-card-child .rad-card-first {
+  position: relative;
+  z-index: 1;
+  left: 200px;
+}
+.rad-card-child .rad-card-second {
+  position: relative;
+  z-index: 2;
+  left: 100px;
+}
+.rad-card-child .rad-card-thirty {
+  position: relative;
+  z-index: 5;
+}
+
 body {
   display: flex;
   flex-direction: column;
