@@ -461,6 +461,7 @@ body {
 .menu {
   display: flex;
   justify-content: end;
+  margin-right: 50px;
 }
 .menu p {
   font-size: 30px;
@@ -479,7 +480,8 @@ body {
 
 .kris {
   font-size: 160px;
-  margin-left: 100px;
+  margin: 100px 0;
+  margin: 0;
 }
 
 .homo-body {
@@ -689,6 +691,91 @@ body {
   font-size: 580px;
   font-weight: bold;
   letter-spacing: 38px;
+}
+
+.body-katy {
+  overflow: hidden;
+  padding: 10px 80px;
+  font-family: NeueLight;
+  font-weight: bold;
+}
+
+.katy-head {
+  display: flex;
+  justify-content: space-between;
+}
+.katy-head div:nth-child(2) ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+.katy-head div:nth-child(2) ul li {
+  cursor: pointer;
+}
+.katy-head div:nth-child(2) ul li:first-child {
+  color: #D20022;
+}
+.katy-head div:nth-child(2) ul li:hover {
+  color: #D20022;
+}
+
+.katy-main {
+  padding-top: 20px;
+}
+.katy-main .years-card {
+  display: flex;
+  justify-content: space-between;
+}
+.katy-main .years-card div {
+  width: 204px;
+  height: 430px;
+}
+.katy-main .years-card div:first-child {
+  background-image: url(../../img/2013/Frame\ 999.png);
+}
+.katy-main .years-card div:nth-child(2) {
+  background-image: url(../../img/2013/Frame\ 1000.png);
+}
+.katy-main .years-card div:nth-child(3) {
+  background-image: url(../../img/2013/Frame\ 1001.png);
+}
+.katy-main .years-card div:nth-child(4) {
+  background-image: url(../../img/2013/Frame\ 1002.png);
+}
+.katy-main .years-card div:nth-child(5) {
+  background-image: url(../../img/2013/Frame\ 1003.png);
+}
+.katy-main .years-card div:nth-child(6) {
+  background-image: url(../../img/2013/Frame\ 1004.png);
+}
+.katy-main .bottom-katy p {
+  padding: 15px 0;
+  margin: 0 auto;
+  width: 864px;
+  line-height: 24px;
+  letter-spacing: 1%;
+  color: #000;
+  letter-spacing: 1.2px;
+}
+.katy-main .bottom-katy img {
+  width: 22px;
+  height: 13px;
+  margin: 0 730px;
+  cursor: pointer;
+}
+
+.footer-katy {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-katy div:nth-child(2) ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  font-weight: bold;
+}
+.footer-katy div:nth-child(2) ul li {
+  color: #000;
 }
 
 body {
